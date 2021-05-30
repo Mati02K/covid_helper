@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*
+{
+    margin:5px;
+    padding: 5px;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+
+body
+{
+    background-color: #e8e8e8;
+}
+.container
+{
+    background-color: #e8e8e8;
+}
+
+.card-body
+{
+    background-color: white;
+}
+
+/* p
+{
+    font-size: 80px;
+    font-weight: 500;
+    text-align: center;
+    color: red;
+}
+
+@media screen and (max-width:768px)
+{
+    p
+    {
+        font-size: 30px;
+        color: blue;
+    }
+    
+} */

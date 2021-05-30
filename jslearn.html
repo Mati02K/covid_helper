@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onload="call()">
+    <div onmouseover="this.innerHTML='Thank You'" onmouseout="this.innerHTML='Mouse Over Me'" 
+    style="background-color: yellow;width:120px;height:20px;padding:40px;"></div>
+
+    <p id="check"></p>
+    <br>
+    <button onclick="changecolor()" type="button">Change Color</button>
+    <script type="text/javascript">
+        //Var const let
+      function call()
+      { 
+    var person = prompt("Please enter Your Name","mathesh");
+    if(person!=null)
+    {
+        document.getElementById("check").innerHTML="Hello"+person;
+    }
+    } 
+
+    function changecolor()
+    {
+        document.body.style.background="yellow";
+    }
+    </script>
+</body>
+</html>
